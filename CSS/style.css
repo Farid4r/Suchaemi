@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ececec;
+  color: #000000;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.header {
+  padding: 20px;
+}
+.header h1 {
+  margin-right: 10px;
+  text-align: center;
+  background-color: #033c48;
+  padding: 12px;
+}
+.header .judul {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #033c48;
+}
+.header a:hover {
+  background-color: rgb(168, 168, 168);
+  color: white;
+}
+.hero {
+  height: 280px;
+  background-image: url(BANNER\ ES\ STIKY.jpg);
+  background-size: cover;
+  background-position: 0 -15px;
+  border-bottom: 10px #00a398;
+  border-top: 10px #033c48;
+}
+.content {
+  padding: 20px;
+}
+.content h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content .Penulis {
+  font-size: 11px;
+  margin-top: -10px;
+}
+.content .Penulis a {
+  text-decoration: none;
+}
+
+.footer .copyright {
+  padding: 10px;
+  color: #ffffff;
+  background-color: #033c48b1;
+  text-align: center;
+  font-size: 12px;
+}
